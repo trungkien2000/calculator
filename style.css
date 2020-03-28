@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#title {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#main {
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 20% 20% 1fr;
+    justify-items: center;
+    align-self: center;
+}
+
+#textview {
+    width: 382px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 3.8rem;
+    margin-bottom: 0;
+    background-color: white;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: right;
+    text-justify: auto;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#result {
+    width: 382px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: -1rem;
+    background-color: white;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: right;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#table {
+    margin-top: -4rem;
+    background-color: darkblue;
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5), 0 5px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
+    outline: .005em solid white;
+}
