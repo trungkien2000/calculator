@@ -1,2 +1,2 @@
 # my static website
-# TuKi's calculator git
+# TuKi's calculator
