@@ -19,6 +19,15 @@ body {
     font-family: 'Share Tech Mono', monospace;
 }
 
+#mode {
+    position: fixed;
+    right: 10%;
+    top: 10%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
 #main {
     display: -ms-grid;
     display: grid;
